@@ -1,0 +1,24 @@
+# Python
+       __pycache__/
+       *.pyc
+       .ruff_cache/
+       .pytest_cache/
+
+       # Data — tracked by DVC
+       data\creditcard.csv
+
+       # Terraform
+       .terraform/
+       *.tfstate
+       *.tfstate.*
+       *.tfvars
+       crash.log
+
+       # Secrets
+       .env
+       *.key
+       datastore-secret.yaml
+
+       # MLflow local
+       mlruns/
+       mlflow.db
